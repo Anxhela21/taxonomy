@@ -1,0 +1,88 @@
+created_by: name
+version: 3
+domain: music
+document_outline: Knowledge contribution about the Albanian Iso-Polyphony.
+seed_examples:
+  - context: >-
+      Iso-Polyphony is a traditional part of Albanian folk music. It's included
+      in UNESCO's Intangible Cultural Heritage List. Albanian Iso-Polyphony is
+      considered to have its roots in the many-voiced vajtim, the southern
+      Albanian traditional lamentation of the dead. The instrumental expression
+      of Albanian Iso-Polyphony evolved into the Albanian kaba.
+    questions_and_answers:
+      - question: Where is Iso-Polyphony listed?
+        answer: UNESCO's Intangible Cultural Heritage List
+      - question: What is vajtim?
+        answer: Southern Albanian lament for the dead
+      - question: What expresses Iso-Polyphony?
+        answer: Kaba
+  - context: >-
+      Albanian Iso-Polyphony is believed to originate from the many-voiced vajtim,
+      the southern Albanian traditional lamentation of the dead. Scholars studying
+      Albanian iso-polyphony and Balkan polyphonic music generally consider it an ancient
+      tradition dating back to the Thraco-Illyrian era. Although historical documentation
+      is scarce, the tradition has been preserved through oral transmission across
+      generations. Specific features such as the pentatonic modal structure,
+      recitative vocals, calls and shouts, and a cappella singing suggest an ancient origin.
+    questions_and_answers:
+      - question: What era is Iso-Polyphony from?
+        answer: Thraco-Illyrian era
+      - question: How has it been preserved?
+        answer: Oral transmission
+      - question: What vocals are used?
+        answer: Recitative, calls, shouts, a cappella
+  - context: >-
+      Despite the region being under Byzantine rule for centuries, Balkan polyphonic
+      traditional music developed differently from medieval Byzantine music.
+      The Balkan tradition remained non-institutionalized and collectively formed,
+      while Byzantine music was created by individual composers and institutionalized.
+      Although the two traditions coexisted and likely influenced each other,
+      the interaction between Albanian polyphonic traditional music and Byzantine
+      music is considered relatively minor.
+    questions_and_answers:
+      - question: How long were the Balkans under Byzantine rule?
+        answer: Centuries
+      - question: How is Balkan polyphonic music different from Byzantine?
+        answer: Non-institutional, collective
+      - question: Did the two influence each other?
+        answer: Minimal interaction
+  - context: >-
+      Albanian polyphonic traditional music is thought to have initially consisted
+      of two melodic lines: the taker (first voice) and the turner (second voice).
+      The turner likely played a non-specific melodic role, a style still found in
+      the two-voiced polyphonic singing of women in Gjirokastër. Over time, the turner
+      became more precisely defined melodically, a tradition now seen among the men
+      of Dukat. Two-voice iso-polyphony is also present in various regions of Albania,
+      including Korcë, Librazhd, Pogradec, Kolonjë, Fier, Shpat i Sipërm of Elbasan,
+      Myzeqe, Vlorë, Berat, Mallakastër, Gjirokastër, Lunxhëri, as well as in
+      Albanian-speaking areas of Zajas, Kičevo, and Tetovo. Additionally,
+      it is found among the Arbëreshë of Calabria. Scholar Vasil Tole argues
+      that two-voice polyphony should not be seen merely as an initial stage
+      but rather as a "hidden" form of three-voice polyphony.
+    questions_and_answers:
+      - question: What role did the turner play?
+        answer: Non-specific melodic role
+      - question: How did the turner role evolve?
+        answer: Became more precisely defined melodically
+      - question: Where is two-voiced iso-polyphony found?
+        answer: In various regions of Albania
+  - context: >-
+      The next development in Albanian traditional polyphony was the introduction
+      of the drone (iso), which complemented the existing melodic lines and led
+      to three-voiced polyphony. This addition enriched the harmonic interplay
+      between melodic lines and became a common feature in modern Albanian polyphonic
+      tradition. While traditionally sung only by men, three-voice iso-polyphony
+      is now performed by mixed-gender groups in regions such as Skrapar, Gramsh,
+      Devoll, Gjirokastër, Kolonjë, Sarandë, and Vlorë.
+    questions_and_answers:
+      - question: What led to the three-voiced polyphony?
+        answer: The drone (iso)
+      - question: How did the drone affect polyphony?
+        answer: Enriched the harmonic interplay
+      - question: Who sung three-voiced iso-polyphony?
+        answer: Traditionally men, now mixed-gender groups
+document:
+  repo: https://github.com/Anxhela21/instructlab_knowledge.git
+  commit: 6063ba8eecf6e9c616f2b80175c5b09d08e45f01
+  patterns:
+    - isopolyphonic.md
